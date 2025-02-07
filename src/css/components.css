@@ -4,7 +4,63 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: var(--yellow);
+    background-color: var(--grey-900);
+}
+
+.card {
+    border-radius: 12px;
+    background-color: var(--grey-800);
+}
+
+
+
+.profile-details {
+    display: grid;
+    gap: 24px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.profile-details img {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.profile-details .profile-name {
+    font-size: 24px;
+}
+
+.profile-details .profile-location {
+    color: var(--green);
+}
+
+.profile-details .profile-bio {
+    opacity: 0.7;
+}
+
+
+
+.profile-links {
+    display: grid;
+    gap: 16px;
+    padding: 0;
+}
+
+.profile-links .profile-link {
+    padding: 12px;
+    background-color: var(--grey-700);
+    color: var(--white);
+    border-radius: 8px;
+    box-shadow: unset;
+    text-align: center;
+    text-decoration: none;
+}
+
+.profile-links .profile-link:hover {
+    background-color: var(--green);
+    color: var(--grey-900);
 }
 
 
